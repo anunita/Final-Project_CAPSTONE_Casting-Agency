@@ -1,6 +1,6 @@
 # Casting Agency
 
-Site live at : https://final-project-capstone-casting-agency.onrender.com
+Site live on Render site at : https://final-project-capstone-casting-agency.onrender.com
 
 This  is the final project of the Udacity Full Stack Developer Nano Degree Program. It models a company that is responsible for creating movies and managing and assigning actors to those movies.The goal of this project is to deploy a Flask application hosted in Render Cloud/PostgreSQL and enable Role Based Authentication and roles-based access control (RBAC) with Auth0 (a third-party authentication system). There are three roles within the company of Assistant, Director and Producer.
 
@@ -87,14 +87,10 @@ psql casting_agency< data.psql
       - `delete:movies`
 
 ## Setting up the environment variables
-.env has all the environment variables needed for the project. The app may fail if they are not set properly.
+setup.sh has all the environment variables needed for the project. The app may fail if they are not set properly.
 
-The .env file should have the following values - 
-database_name (used casting_agency as the main database)
-database_name_test (casting_agency_test as the test database)
-database_user
-database_password
-database_host
+The file should have the following values - 
+DATABASE_URL
 AUTH0_DOMAIN
 API_AUDIENCE
 ASSISTANT_TOKEN
