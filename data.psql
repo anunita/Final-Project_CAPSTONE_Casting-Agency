@@ -1,0 +1,26 @@
+-- Insert data into actors table
+INSERT INTO actors (name, age, gender) VALUES
+    ('Robert Downey Jr.', 56, 'Male'),
+    ('Scarlett Johansson', 36, 'Female'),
+    ('Chris Hemsworth', 38, 'Male'),
+    ('Mark Ruffalo', 53, 'Male'),
+    ('Chris Evans', 42, 'Male'),
+    ('Tom Holland', 27, 'Male'),
+    ('Natalie Portman', 43, 'Female'),
+    ('Benedict Cumberbatch', 47, 'Male'),
+    ('Tom Hiddleston', 43, 'Male'),
+    ('Samuel L. Jackson', 73, 'Male');
+
+-- Insert data into movies table
+INSERT INTO movies (title, release_date) VALUES
+    ('Avengers: Endgame', '2019-04-26'),
+    ('Avengers: Infinity War', '2018-04-27'),
+    ('Iron Man', '2008-05-02'),
+    ('Thor', '2011-05-06'),
+    ('Captain America: The First Avenger', '2011-07-22'),
+    ('Spider-Man: Homecoming', '2017-07-07'),
+    ('Black Panther', '2018-02-16'),
+    ('Guardians of the Galaxy', '2014-08-01'),
+    ('Doctor Strange', '2016-11-04'),
+    ('Ant-Man', '2015-07-17');
+    
