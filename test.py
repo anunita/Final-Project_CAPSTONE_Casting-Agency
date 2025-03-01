@@ -3,7 +3,7 @@ import unittest
 from unittest.mock import patch
 import json
 from dotenv import load_dotenv
-from api import create_app
+from app import create_app
 from models import db, Actor, Movie
 import random
 

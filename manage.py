@@ -1,7 +1,7 @@
 from flask_script import Manager
 from flask_migrate import Migrate, MigrateCommand
 
-from api import create_app
+from app import create_app
 from models import db, Actor, Movie
 
 app = create_app()

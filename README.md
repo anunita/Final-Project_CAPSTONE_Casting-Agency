@@ -1,6 +1,6 @@
 # Casting Agency
 
-Site live at : https://casting-agency-0426.herokuapp.com
+Site live at : https://final-project-capstone-casting-agency.onrender.com
 
 This  is the final project of the Udacity Full Stack Developer Nano Degree Program. It models a company that is responsible for creating movies and managing and assigning actors to those movies.The goal of this project is to deploy a Flask application hosted in Render Cloud/PostgreSQL and enable Role Based Authentication and roles-based access control (RBAC) with Auth0 (a third-party authentication system). There are three roles within the company of Assistant, Director and Producer.
 
