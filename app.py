@@ -30,6 +30,14 @@ def create_app(test_config=None):
             "Access-Control-Allow-Methods", "GET,PATCH,POST,DELETE,OPTIONS"
         )
         return response
+   
+    # sample route for Render
+    @app.route('/')
+    def index():
+        return jsonify({
+            "success": True,
+            "message": "Welcome to Udacity final capstone project!"
+        })
 
     # MOVIE ROUTES
     #Get details of all movies"""
